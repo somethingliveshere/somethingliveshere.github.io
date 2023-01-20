@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'comicFont';
+  src: url('assets\fonts\comicsFont.otf');
+}
+
+body {
+  margin: 0;
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+div, span, p, h1, h2, h3, h4, input {
+  color: #cdcdcd;
+  font-family: 'comicFont';
+}
+input {
+  background-color: transparent;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  padding: 7px 12px;
+  font-size: 20px;
+}
